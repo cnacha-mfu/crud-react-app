@@ -1,6 +1,6 @@
 import "./App.css";
 import CreateUser from "./components/User/CreateUser";
-import ShowUser from "./components/User/ShowUser";
+import ListUser from "./components/User/ListUser";
 import { Route, Routes } from "react-router-dom";
 import EditUser from "./components/User/EditUser";
 import User from "./components/User/User";
@@ -18,7 +18,7 @@ function App() {
             <Route path="/edit-user/:id" element={<EditUser />} />
             <Route path="/user/:id" element={<User />} />
             <Route path="/create-user" element={<CreateUser />} />
-            <Route path="/show-user" element={<ShowUser />} />
+            <Route path="/show-user" element={<ListUser />} />
           </Routes>
           
         </div>

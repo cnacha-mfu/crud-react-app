@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import Loader from "../Common/Loader";
 
-const ShowUser = () => {
+const ListUser = () => {
   const showUserApi = "http://localhost:3000/user";
 
   const [user, setUser] = useState([]);
@@ -92,4 +92,4 @@ const ShowUser = () => {
   }
 };
 
-export default ShowUser;
+export default ListUser;
