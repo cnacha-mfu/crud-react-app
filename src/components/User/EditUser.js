@@ -9,7 +9,7 @@ const EditUser = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
-  const getUserApi = "http://localhost:3000/user";
+  const getUserApi = "https://laughing-robot-jv55p4vjwrfgjg-3000.app.github.dev/user";
 
   useEffect(() => {
     getUser();

@@ -5,7 +5,7 @@ import "./User.css";
 const EditUser = () => {
   const [user, setUser] = useState([]);
   const { id } = useParams();
-  const getUserApi = "http://localhost:3000/user";
+  const getUserApi = "https://laughing-robot-jv55p4vjwrfgjg-3000.app.github.dev/user";
 
   useEffect(() => {
     getUser();

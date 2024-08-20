@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Loader from "../Common/Loader";
 
 const ListUser = () => {
-  const showUserApi = "http://localhost:3000/user";
+  const showUserApi = "https://laughing-robot-jv55p4vjwrfgjg-3000.app.github.dev/user";
 
   const [user, setUser] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
