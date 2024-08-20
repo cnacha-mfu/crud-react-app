@@ -4,7 +4,7 @@ This project realate to react CRUD
 
 ## How to start this project
  
-    step 1: git clone https://github.com/bhairabpatra/crud-react-app.git
-    step 2: npm i
-    step 3: npx json-server db.json
-    step 4: PORT=3001 npm start
+    step 1: npm i
+    step 2: npx json-server db.json
+            make port 3000 public
+    step 3: PORT=3001 npm start
